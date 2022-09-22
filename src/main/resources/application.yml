@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: micronautAerospikeDemo
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+aerospike:
+  host: 65.2.186.137
+  port: 3000
+  namespace: test
